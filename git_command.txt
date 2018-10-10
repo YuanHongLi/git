@@ -5,3 +5,4 @@ git log								查看提交历史
 git reflog							查看命令历史，可确定回到未来的哪个版本
 git diff							查看修改内容
 git diff HEAD -- readme.txt			查看工作区和版本库里面最新版本的区别
+git rm 								删除一个文件
