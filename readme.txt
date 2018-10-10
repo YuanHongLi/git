@@ -1,2 +1,1 @@
-HAhahahhaahakhkaldAKSJHDKjashd
-adfsdfa
+一些git的简单命令
