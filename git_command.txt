@@ -18,3 +18,4 @@ git merge <name>					合并某分支到当前分支
 git branch -d <name>				删除分支
 git log --graph						查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit	查看分支合并图简略版本
+git merge --no-ff -m 				使用普通模式进行合并，可以查看到合并历史
