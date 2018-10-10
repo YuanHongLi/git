@@ -19,3 +19,9 @@ git branch -d <name>				删除分支
 git log --graph						查看分支合并图
 git log --graph --pretty=oneline --abbrev-commit	查看分支合并图简略版本
 git merge --no-ff -m 				使用普通模式进行合并，可以查看到合并历史
+git stash							保存当前工作区
+git stash list						查看被保存起来的工作区
+git stash apply						恢复工作区，不删除stash
+git stash drop						删除被保存起来的工作区
+git stash pop						恢复工作区的同时删除保存起来的工作区
+git stash apply stash@{n}			恢复指定的工作区
