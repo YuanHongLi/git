@@ -4,7 +4,7 @@ git reset --hard commit_id			回退到commit_id版本
 git log								查看提交历史
 git reflog							查看命令历史，可确定回到未来的哪个版本
 git diff							查看修改内容
-git diff HEAD -- readme.txt			查看工作区和版本库里面最新版本的区别
+git diff HEAD -- <file>				查看工作区和版本库里面最新版本的区别
 git rm 								删除一个文件
 git remote add origin ***.git		关连远程仓库
 git push -u origin master			第一次推送master所有分支内容
